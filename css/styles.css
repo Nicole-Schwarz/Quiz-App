@@ -1,4 +1,27 @@
-h1 {
+* {
+  box-sizing: border-box;
+}
+
+h2 {
   text-align: center;
-  background-color: red;
+  background-color: lightgrey;
+}
+.question {
+  text-align: center;
+}
+.buttons-box {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.answer-buttons {
+  background-color: grey;
+}
+.second_box {
+  border: solid;
+}
+.btn_show {
+  width: 100%;
+  text-align: center;
 }
