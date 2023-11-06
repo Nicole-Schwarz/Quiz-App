@@ -3,10 +3,10 @@
 }
 
 .headline {
-  align-self: center;
   background-color: lightgrey;
   display: flex;
   position: sticky;
+  justify-content: center;
   top: 0;
   border: solid;
   border-radius: 5px;
