@@ -2,9 +2,22 @@
   box-sizing: border-box;
 }
 
-h2 {
-  text-align: center;
+.headline {
+  align-self: center;
   background-color: lightgrey;
+  display: flex;
+  position: sticky;
+  top: 0;
+  border: solid;
+  border-radius: 5px;
+}
+
+.bookmark {
+  position: absolute;
+  right: 20px;
+  margin-top: -8px;
+  cursor: pointer;
+  z-index: 100;
 }
 .question {
   text-align: center;
@@ -18,10 +31,24 @@ h2 {
 .answer-buttons {
   background-color: grey;
 }
-.second_box {
+.box {
   border: solid;
+  margin-bottom: 15px;
 }
 .btn_show {
   width: 100%;
   text-align: center;
+}
+footer {
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  background-color: grey;
+  border: solid;
+  border-radius: 5px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
