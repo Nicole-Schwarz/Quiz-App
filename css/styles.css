@@ -15,7 +15,7 @@
 .bookmark {
   position: absolute;
   right: 20px;
-  margin-top: -8px;
+  margin-top: -18px;
   cursor: pointer;
   z-index: 100;
 }
@@ -34,6 +34,7 @@
 .box {
   border: solid;
   margin-bottom: 15px;
+  padding: 10px;
 }
 .btn_show {
   width: 100%;
