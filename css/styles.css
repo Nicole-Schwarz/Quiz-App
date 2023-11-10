@@ -43,6 +43,7 @@
 .btn_show {
   width: 100%;
   text-align: center;
+  font-weight: bold
 }
 footer {
   display: flex;
