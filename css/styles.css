@@ -13,11 +13,11 @@
   border: solid;
   border-radius: 5px;
 }
-
+/* bookmark festsetzen auf border */
 .bookmark {
   position: absolute;
-  right: 480px;
   margin-top: -18px;
+  margin-left: 90px;
   cursor: pointer;
   z-index: 100;
 }
