@@ -20,6 +20,8 @@
   margin-left: 90px;
   cursor: pointer;
   z-index: 100;
+  border: none;
+  background-color: transparent;
 }
 .question {
   text-align: center;
